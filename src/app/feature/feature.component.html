@@ -1,4 +1,9 @@
-<ActionBar title="My App" class="action-bar">
+<ActionBar class="action-bar">
+    <NavigationButton android.systemIcon="ic_menu_back"></NavigationButton>
+    <GridLayout rows="*, auto" class="action-bar-title" marginTop="-20" paddingTop="0">
+        <Label text="My App" fontSize="19" verticalAlignment="center" row="0" paddingLeft="0"></Label>
+        <Label text="{{section}}" fontSize="11" verticalAlignment="center" row="1" paddingLeft="0"></Label>
+    </GridLayout>
 </ActionBar>
 
 <StackLayout class="page">
